@@ -1,2 +1,5 @@
 <h1>Bloc Chat</h1>
-<p>Welcome to Bloc Chat, where Bloc is our name and chatting is our game!</p>
+<div ng-repeat="room in home.rooms">
+    <h3>{{ room.$id }}</h3>
+    <p>{{ room.$value }}</p>
+</div>
