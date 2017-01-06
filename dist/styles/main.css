@@ -68,11 +68,10 @@ body {
 
 .messages-body .username {
     font-weight: bold;
-    float: left;
 }
 
 .messages-body .timestamp {
-    text-align: right;
+    float: right;
     padding-right: 100px;
 }
 
